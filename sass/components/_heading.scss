@@ -1,0 +1,25 @@
+
+.full-conatiner-1{
+    background-color: $backgrond;
+}
+.heading{
+     @include set-headline-style(h1);
+     margin: auto;
+     width: 50%;
+
+     padding: $size-20; 
+}
+
+.alert-heading{
+    @include set-headline-style(h2);  
+    text-transform: uppercase;
+}
+p{
+    border: $size-2 solid $base_color;
+    max-width: max-content;
+    padding: $size-7;
+    margin: $size-10;
+    .alert-link{
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,182 @@
+body {
+  font-family: "Permanent Marker";
+}
+
+h1 {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.188rem;
+}
+
+h2 {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+h6 {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+.full-conatiner-1 {
+  background-color: #aa837c;
+}
+
+.heading {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.188rem;
+  margin: auto;
+  width: 50%;
+  padding: 1.25rem;
+}
+
+.alert-heading {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+p {
+  border: 0.125rem solid #8C5144;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 0.438rem;
+  margin: 0.625rem;
+}
+p .alert-link {
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 0.25rem;
+  margin: 0.625rem;
+  margin: auto;
+  justify-content: center;
+}
+
+.img-fluid {
+  width: 120rem;
+  height: 56.25rem;
+}
+
+.card {
+  margin-bottom: 150px;
+}
+
+.full-conatiner-1 {
+  background-color: #aa837c;
+}
+
+.heading {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.188rem;
+  margin: auto;
+  width: 50%;
+  padding: 1.25rem;
+}
+
+.alert-heading {
+  font-family: "Permanent Marker";
+  font-size: 1.625rem;
+  letter-spacing: 0;
+  color: #8C5144;
+  line-height: 2.5rem;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+p {
+  border: 0.125rem solid #8C5144;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 0.438rem;
+  margin: 0.625rem;
+}
+p .alert-link {
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 0.25rem;
+  margin: 0.625rem;
+  margin: auto;
+  justify-content: center;
+}
+
+.img-fluid {
+  width: 120rem;
+  height: 56.25rem;
+}
+
+.card {
+  margin-bottom: 150px;
+}/*# sourceMappingURL=app.css.map */

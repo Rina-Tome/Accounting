@@ -1,0 +1,48 @@
+@mixin set-headline-style($headTag: h2, $brightness:dark, $fontSize: null) {
+    font-family:'Permanent Marker';
+    font-size: $size-26;
+    letter-spacing: 0;
+    color: $base_color;
+    line-height: $size-40;
+    margin: 0;
+    font-weight: normal;
+  
+    @if $headTag == h1 {
+      font-size: $size-35;
+    } @else if $headTag == h3 {
+      font-size: $size-24;
+    } @else if $headTag == h4 {
+      font-size: $size-18;
+    } @else if $headTag == h5 {
+      font-size: $size-16;
+    } @else if $headTag == h6 {
+      font-size: $size-14;
+    }
+    
+    @if $brightness == light {
+      color: $fonts_color;
+    }
+    @if $fontSize != null {
+      font-size: $fontSize;
+    }
+  }
+  
+  h1 {
+    @include set-headline-style(h1);
+  }
+  h2 {
+    @include set-headline-style();
+  }
+  h3 {
+    @include set-headline-style(h3);
+  }
+  h4 {
+    @include set-headline-style(h4);
+  }
+  h5 {
+    @include set-headline-style(h5);
+  }
+  h6 {
+    @include set-headline-style(h6);
+  }
+  
