@@ -1,7 +1,24 @@
 .card{
-    margin-bottom:$size0-15; 
+    margin-bottom:$size-15; 
+    background-color: $primary_color;
+  
 a{
     border: $size-2 solid $base_color;
     background-color: $base_color;
   }
+}
+
+.hide-btn{
+  display: none;
+}
+.hide-table{
+  display: none;
+}
+
+.calculate-sum-btn{
+  background-color: white;
+  width: 200px;
+  color: black;
+  padding: 12px 16px;
+  border: 1px solid black;
 }

@@ -1,42 +1,50 @@
-
-var genderSelect = document.getElementById("genderSelect");
-let maleTable = document.getElementsByClassName('male-table');
-let femaleTable = document.getElementsByClassName('female-table');
+let total = 0;
+const checkboxes = document.querySelectorAll('.custom-control-input');
+const inputs = Array.from(document.getElementsByClassName('custom-control-input'));
 
 genderSelect.addEventListener("change", function() {
-    let value = genderSelect.value;
-    if (value === "female") {
-        for (var i = 0; i < maleTable.length; i++) {
-            // Do something with each element
-            maleTable[i].style.display = "none";
-        }
 
-        for (var i = 0; i < femaleTable.length; i++) {
-            // Do something with each element
-            femaleTable[i].style.display = "";
-        }
+    let genderSelect = document.getElementById("genderSelect").value;
+    let maleTable = document.getElementsByClassName('male-table');
+    let femaleTable = document.getElementsByClassName('female-table');
 
-    } else if (value=='male'){
-
-        for (var i = 0; i < maleTable.length; i++) {
-            // Do something with each element
-            maleTable[i].style.display = "";
-        }
-
-        for (var i = 0; i < femaleTable.length; i++) {
-            // Do something with each element
-            femaleTable[i].style.display = "none";
-        }
+    if (genderSelect === "female") {
+        document.getElementById('table-of-girls').classList.remove('hide-table'); 
+        document.getElementById('table-of-mans').classList.add('hide-table');
+    } else if (genderSelect=='male'){
+        document.getElementById('table-of-mans').classList.remove('hide-table');
+        document.getElementById('table-of-girls').classList.add('hide-table');
     } else {
-        for (var i = 0; i < maleTable.length; i++) {
-            // Do something with each element
-            maleTable[i].style.display = "none";
-        }
-
-        for (var i = 0; i < femaleTable.length; i++) {
-            // Do something with each element
-            femaleTable[i].style.display = "none";
-        }
+        document.getElementById('table-of-girls').classList.add('hide-table');
+        ocument.getElementById('table-of-mans').classList.add('hide-table');
     }
+
+    if (genderSelect === "female" || genderSelect === "male") {
+        document.getElementById('total').classList.remove('hide-btn');
+    } else {
+        document.getElementById('total').classList.add('hide-btn');
+    }
+
 });
-genderSelect.dispatchEvent(new Event("change"));;
+
+function myFunction() {
+    total = 0;
+    const inputs = Array.from(document.getElementsByClassName('custom-control-input'));
+    inputs.forEach((input) => {
+        if (input.checked) {
+            if(!isNaN(input.value)){
+                total += parseInt(input.value);
+            }
+         
+        }
+    });
+    document.getElementById("total").innerHTML = " Total: " + total;
+
+    inputs.forEach((input) => {
+        if (input.checked) {
+             input.checked = false;
+        }
+    });
+
+} 
+ 
