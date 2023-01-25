@@ -69,12 +69,12 @@ h6 {
 
 .full-conatiner-1 {
   background-color: #F5F5DC;
+  position: relative;
 }
 
 .heading {
   margin: auto;
   width: 50%;
-  padding: 1.25rem;
 }
 
 .container-2 {
@@ -102,11 +102,9 @@ h6 {
   text-transform: uppercase;
 }
 
-.container {
+.container-2 {
   padding: 0.25rem;
   margin: 0.625rem;
-  margin: auto;
-  justify-content: center;
 }
 
 .img-fluid {
@@ -141,12 +139,12 @@ h6 {
 
 .full-conatiner-1 {
   background-color: #F5F5DC;
+  position: relative;
 }
 
 .heading {
   margin: auto;
   width: 50%;
-  padding: 1.25rem;
 }
 
 .container-2 {
@@ -174,11 +172,9 @@ h6 {
   text-transform: uppercase;
 }
 
-.container {
+.container-2 {
   padding: 0.25rem;
   margin: 0.625rem;
-  margin: auto;
-  justify-content: center;
 }
 
 .img-fluid {

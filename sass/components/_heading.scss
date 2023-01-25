@@ -1,32 +1,31 @@
 
 .full-conatiner-1{
    background-color:$primary_color;
+   position: relative;
 }
    
 .heading{
-     margin: auto;
-     width: 50%;
-     padding: $size-20; 
+   margin: auto;
+   width: 50%;
 }
-
 .container-2{
-    margin-bottom: $size-6;
-    margin-right: $size-4;
-    padding-right: $size-4;
+ margin-bottom: $size-6;
+ margin-right: $size-4;
+ padding-right: $size-4;
   .alert-warning{
-       margin-bottom: $size-3;
-       margin-right: 0;
-       padding-right: $size-3;
-     .alert-heading{
-       text-transform: uppercase;
-          p {
-            border: $size-2 solid $base_color;
-            max-width: max-content;
-            padding: $size-7;
-            margin: $size-10;
-             .alert-link{
-               text-transform: uppercase;
-               }
+   margin-bottom: $size-3;
+  margin-right: 0;  
+  padding-right: $size-3;
+    .alert-heading{
+      text-transform: uppercase;
+       p {
+        border: $size-2 solid $base_color;
+        max-width: max-content;
+        padding: $size-7;
+        margin: $size-10;
+          .alert-link{
+            text-transform: uppercase;
+           }
          }
       }
     }
